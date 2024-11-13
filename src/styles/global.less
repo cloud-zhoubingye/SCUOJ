@@ -1,0 +1,119 @@
+/*
+Copyright 2020-2021 the original author or authors.
+
+              Licensed under the General Public License, Version 3.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+https://www.gnu.org/licenses/gpl-3.0.en.html
+*/
+
+
+@import './reset.css';
+@import './font.css';
+@import './iview-variables.less';
+@import './iview-component.less';
+
+body {
+  //font-family: "AlibabaSans", "Microsoft YaHei", "微软雅黑", Arial, serif !important;
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  overflow: auto !important;  // 防止vue切换页面后滚动栏消失
+}
+
+.hover:hover {
+  cursor: pointer;
+}
+
+.layout {
+  min-width: 1200px;
+  margin-top: 50px;
+  padding-top: 24px;
+  height: 100%;
+  position: relative;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.spin-container{
+  display: inline-block;
+  max-width: 1500px;
+  height: 100px;
+  position: relative;
+}
+
+.clearfix:after {
+  content: '';
+  clear:both;
+  display: table;
+}
+
+.footer {
+  text-align: center;
+  padding: 50px 50px 24px;
+  color: #515a6e;
+  font-size: 14px;
+}
+
+.card-extra {
+  position: relative;
+  top: -6px;
+}
+
+.contest-type--acm {
+  padding: 0 10px;
+  color: #fff;
+  background-color: #3676B6;
+  border-radius: .75rem;
+}
+
+.contest-type--oi {
+  padding: 0 10px;
+  color: #fff;
+  background-color: #f8df72;
+  border-radius: .75rem;
+}
+
+.contest-type--ioi {
+  padding: 0 10px;
+  color: #fff;
+  background-color: #ea517f;
+  border-radius: .75rem;
+}
+
+.span__menu {
+  font-weight: 600;
+}
+
+.border {
+  border: solid 1px #e8eaec;
+  border-radius: .75rem;
+}
+
+.footer-tools {
+  margin: 15px;
+}
+
+.footer-pages {
+  margin: 15px auto;
+  padding-right: 15px;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.center {
+  display:flex;
+  justify-content:center;
+}
+
+.footer-btn {
+  margin-right: 5px;
+}
